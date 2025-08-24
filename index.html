@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Event</title>
+</head>
+<body>
+    <h1>Dom Doma Dom Events</h1>
+
+    <!-- option 1 for event handler -->
+
+    <button onclick="console.log(7)">Click me</button>
+    <button onclick="console.log(566)">Another button</button>
+    <button onclick="console.log('i am click')">Third button</button>
+    <input type="text">
+    <br>
+
+    <!-- option 2 for event handler -->
+
+       <button onclick="makeYello()">Make Yellow</button>
+       <script>
+        function makeYello(){
+            document.body.style.backgroundColor = 'yellow';
+        }
+       </script>
+       <!-- make red all website -->
+        <button onclick="makeRed()">Make Red</button>
+        <script>
+            function makeRed(){
+                document.body.style.background = 'red';
+            }
+        </script>
+
+    <script src="./js/event.js"></script>
+</body>
+</html>
